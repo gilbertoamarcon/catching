@@ -18,4 +18,4 @@ target_link_libraries(main libs)
 target_link_libraries(mainTests libs)
 
 enable_testing()
-add_test(NAME MainTests COMMAND mainTests)
+add_test(NAME mainTests COMMAND mainTests)

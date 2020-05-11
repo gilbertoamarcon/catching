@@ -14,10 +14,8 @@ add_library(libs ${LIBS})
 add_executable(main src/main.cpp)
 add_executable(mainTests tests/test.cpp)
 
-find_package(Catch2 REQUIRED)
-
-target_link_libraries(mainTests libs)
 target_link_libraries(main libs)
+target_link_libraries(mainTests libs)
 
 include(CTest)
 include(Catch)

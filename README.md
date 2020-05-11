@@ -2,6 +2,8 @@
 
 A tester.
 
+![C/C++ CI](https://github.com/gilbertoamarcon/catching/workflows/C/C++%20CI/badge.svg)
+
 ## Build
 
 ```

@@ -19,6 +19,7 @@ int main(int argc, char** argv){
 	sim.linkStates("Market","Laundry");
 	sim.linkStates("Laundry","Market");
 
+
 	sim.setInitialState("Home");
 
 	std::string direction = "";

@@ -23,13 +23,13 @@ int main(int argc, char** argv){
 
 	std::string direction = "";
 
-	while(true){
+	while(direction != "exit"){
 		std::cout << "=========================================" << std::endl;
 		std::cout << "[" << sim.getCurrentState() << "] ";
 		std::cout << "Directions:";
 		for(const auto & direction : sim.getDirections())
 			std::cout << " " << direction;
-		std::cout << std::endl;
+		std::cout << " ('exit' to leave)" << std::endl;
 		std::cin >> direction;
 		sim.move(direction);
 	}
